@@ -2,7 +2,7 @@ print("hello workd")
 
 print(3); print(3); print(3); print(3) 
 
-# print ("your name is john" "your current age" 20 "year old")
+print ("your name is john your current age", 20, "year old")
 
 
 branch = ["Electrical", "computer science", "mechanical"] 
