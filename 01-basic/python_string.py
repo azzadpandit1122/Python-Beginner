@@ -14,13 +14,57 @@ print(p.upper())
 q = "Hello , World"
 print(q.lower())
 
+
+
 r = "welcome in python"
 print(r.upper())
 
+
 s = "html, css"
 print(s.strip())
+
 
 a = "hello"
 b = "world"
 c = a + " " + b
 print(c)
+
+
+age = 35 
+txt = f"my name is prachi, i am {age}"
+print(txt)
+
+
+
+name = "prachi" 
+age = 20
+txt = f"I am {name} , I am {age} year old"
+print(txt)
+
+a = "hello world"
+b = 20
+print(a.upper() , b )
+
+
+
+text = f"the price is {20 * 50} dollers"
+print(text)
+
+
+# txt = "We are the so-called "Vikings" from the north."
+# print(txt)
+
+txt = "We are the so-called 'Vikings' from the north."
+print(txt)
+
+txt = "We are the so-called \"Vikings\" from the north."
+print(txt)
+
+
+txt = "We are the so-called\n\"Vikings\"from the north."
+print(txt)
+
+
+
+txt = "We are the so-called\r\"Vikings\"from the north."
+print(txt)
