@@ -13,3 +13,14 @@ print(p.upper())
 
 q = "Hello , World"
 print(q.lower())
+
+r = "welcome in python"
+print(r.upper())
+
+s = "html, css"
+print(s.strip())
+
+a = "hello"
+b = "world"
+c = a + " " + b
+print(c)
