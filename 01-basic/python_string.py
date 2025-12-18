@@ -68,3 +68,11 @@ print(txt)
 
 txt = "We are the so-called\r\"Vikings\"from the north."
 print(txt)
+
+
+x = "In the end, it is not year in your \r\"life that count\" it's the life in your years"
+print(x)
+
+
+x = "In the end, it is not year in your \n\"life that count\" it's the life in your years"
+print(x)
