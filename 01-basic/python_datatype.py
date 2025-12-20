@@ -12,11 +12,14 @@ print(z + p)
 q = 5j + 7j
 print(q)
 
+
 r = ["school_subject", "safari", "skybag"]
 print(r)
 
+
 a = {"subject": "Math", "mark":80}
 print(a["subject"])
+
 
 v = range(10)
 print(v)
@@ -29,3 +32,6 @@ print(h)
 
 k = bytearray(10)
 print(k)
+
+a = {"abc" : "market", "def" : "school", "girl" : 1234}
+print(a["abc"])

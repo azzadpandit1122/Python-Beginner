@@ -148,8 +148,12 @@
 #    i =  i + 1
 
 
-list1 = ["a", "b", "c"]
-list2 = ["a", "b", "c"]
+# list1 = ["a", "b", "c"]
+# list2 = ["a", "b", "c"]
 # for x in list2:
-list1.append(x)
-print(list1)
+#    list1.append(x)
+# print(list1)
+
+list = ["abc", "def", "xyz"]
+for x in list:
+   print(x)
