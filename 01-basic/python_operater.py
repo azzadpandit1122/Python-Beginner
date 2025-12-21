@@ -44,47 +44,47 @@
 # print(not(x < 5 and x > 1))
 
 
-# x = ["vegetable" , "fruits"]
-# y = ["vegetable" , "fruits"]
-# z = x
-# print(x is not y)
-# print(x is z)
-# print(x == y)
+x = ["vegetable" , "fruits"]
+y = ["vegetable" , "fruits"]
+z = x
+print(x is not y)
+print(x is z)
+print(x == y)
 
-# x =  [1 , 2, 3]
-# y = [1 , 2, 3]
-# p = x
-# print(x is not y)
-# print(p is x )
-# print(x == y)
-
-
-# fruits = ["apple", "banana", "orange"]
-# print("fruit" in fruits)
+x =  [1 , 2, 3]
+y = [1 , 2, 3]
+p = x
+print(x is not y)
+print(p is x )
+print(x == y)
 
 
-# fruits = ["apple", "banana", "orange"]
-# print("fruit" not in fruits)
+fruits = ["apple", "banana", "orange"]
+print("fruit" in fruits)
 
 
-# vegetable = ['potato', "tomato", "cabbage"]
-# fruits = ["pineapple", "pomogrante", "banana"]
-# print(vegetable + fruits)
-# print(vegetable == fruits)
-# print(vegetable is  fruits)
-# print(vegetable is not fruits)
-# print(vegetable in fruits)
-# print(vegetable not in fruits)
-# print("banana" in fruits)
-# print("potato" in vegetable)
-# print("cabbage" in fruits)
-# print("banana" not in vegetable)
+fruits = ["apple", "banana", "orange"]
+print("fruit" not in fruits)
 
-# text = "Hello World"
 
-# print("H" in text)
-# print("Hello World" in text)
-# print("z" not in text)
+vegetable = ['potato', "tomato", "cabbage"]
+fruits = ["pineapple", "pomogrante", "banana"]
+print(vegetable + fruits)
+print(vegetable == fruits)
+print(vegetable is  fruits)
+print(vegetable is not fruits)
+print(vegetable in fruits)
+print(vegetable not in fruits)
+print("banana" in fruits)
+print("potato" in vegetable)
+print("cabbage" in fruits)
+print("banana" not in vegetable)
+
+text = "Hello World"
+
+print("H" in text)
+print("Hello World" in text)
+print("z" not in text)
 
 
 print(6 & 2)
