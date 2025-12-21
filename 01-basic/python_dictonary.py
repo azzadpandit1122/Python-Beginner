@@ -134,3 +134,7 @@ print(fruits)
 num1 = int(input("enetr a number: "))
 sr = num1**(1/2)
 print("the square root of the given number is", sr)
+
+num1 =  int(input("enter a number: "))
+sr = math.sqrt(num)
+print("sr")
