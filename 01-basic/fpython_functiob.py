@@ -173,4 +173,58 @@ def my_function(x , y):
 my_function(10, 50)    
 
 
- 
+def function(wifi, *name):
+  for x in name:
+   print(wifi, x)
+   function("fruits", "animal", 'cftyd')
+
+
+def my_function(greeting, *names): 
+    for x in names:
+      print(greeting, x)
+
+my_function("Hello", "Emil", "Tobias", "Linus")
+
+
+# def my_function(*numbers):
+#   total = 0
+#   for num in numbers:
+#     total += num
+#   return total
+
+# print(my_function(1, 2, 3))
+# print(my_function(10, 20, 30, 40))
+# print(my_function(5))
+
+# def my_function():
+#   for num in number:
+#     tatol +=num
+#     print(my_function(3, 5, 6, 8, 7))
+
+num = [80, 56, 5,78]
+for y in range(3):
+    print(num)
+
+
+num = 50
+for i in range(1, 5):
+    print(num*i)
+
+x = 6
+for i in range(2, 10):
+   print(x*i)
+
+#    x = [2, 9, 1]
+# for i in range(6):
+#    print(x*i)
+
+x = range(2, 9, 1)
+print(7 in x)
+
+r = range(0, 10, 2)
+print(list(r))
+print(len(r))
+
+x = 50
+for i in range(2):
+  print(x)
