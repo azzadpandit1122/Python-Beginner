@@ -46,3 +46,21 @@ import random
 
 num = random.randint(0, 10)
 print(num)
+
+
+
+# num = int(input("enter a number: "))
+# fact = 1
+# if num < 0:
+#     print('factorial 0f 0 does not exist')   
+# if num == 0:
+#     print("factorial 0f 0 is", 1)
+#     if num > 0:
+#         for i in range(1, num+1):
+#             fact = fact*1
+#             print("the factorial of the given number is", fact)
+
+
+Home = ["house", "home", "room", "quater"]
+Home.append("name")
+print("Home")

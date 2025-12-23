@@ -18,13 +18,13 @@ car = {
 "year": 1964
 }
 
-x = car.values()
+# x = car.values()
 
-print(x) #before the change
+# print(x) #before the change
 
 car["year"] = 2020
 
-print(x) #after the change
+print(car) #after the change
 
 car = {
 "brand": "Ford",
@@ -35,14 +35,14 @@ car = {
 x = car.get("year")
 print(x)
 
-# car = {
-# "brand": "Ford",
-# "model": "Mustang",
-# "year": 1964
-# }
+car = {
+"brand": "Ford",
+"model": "Mustang",
+"year": 1964
+}
 
-# x = car.keys("brand")
-# print(x)
+car["keys"] = "brand"
+print(car)
 
 
 # car = {
@@ -60,9 +60,9 @@ car = {
 "year": 1964
 }
 
-x = car.items()
+# x = car.items()
 car["age"] = 34
-print(x)
+print(car)
 
 
 dict = {"type" : "fruits" , "name" : "banana"}
@@ -131,10 +131,84 @@ fruits.clear()
 print(fruits)
 
 
-num1 = int(input("enetr a number: "))
-sr = num1**(1/2)
-print("the square root of the given number is", sr)
+# num1 = int(input("enetr a number: "))
+# sr = num1**(1/2)
+# print("the square root of the given number is", sr)
 
-num1 =  int(input("enter a number: "))
-sr = math.sqrt(num)
-print("sr")
+# num1 =  int(input("enter a number: "))
+# sr = math.sqrt(num)
+# print("sr")
+
+
+fruits =  {'name' :'prachi', "age" : 20, 'year' : 2025}
+thisdict = {"brand": "Ford", "model": "Mustang","year": 1964}
+
+mydict = {
+    "fruits"   : fruits,
+    "thisdict" :  thisdict
+}
+print(mydict)
+
+child1 = {
+  "name" : "Emil",
+  "year" : 2004
+}
+child2 = {
+  "name" : "Tobias",
+  "year" : 2007
+}
+child3 = {
+  "name" : "Linus",
+  "year" : 2011
+}
+
+myfamily = {
+  "child1" : child1,
+  "child2" : child2,
+  "child3" : child3
+}
+print(myfamily)
+
+child1 = {
+  "name" : "Emil",
+  "year" : 2004
+}
+child2 = {
+  "name" : "Tobias",
+  "year" : 2007
+}
+child3 = {
+  "name" : "Linus",
+  "year" : 2011
+}
+
+myfamily = {
+  "child1" : child1,
+  "child2" : child2,
+  "child3" : child3
+}
+
+# print(myfamily["child2"]["name"])
+
+# for x in myfamily.items():
+#   print(x)
+
+#   for y in obj:
+#     print(y + ':', obj[y])
+
+
+mydict = {
+  "child1" : {
+  "name" : "Emil",
+  "year" : 2004
+}, 
+  "child2" : {
+  "name" : "Tobias",
+  "year" : 2007
+}, 
+  "child3" : {
+  "name" : "Linus",
+  "year" : 2011
+}
+}
+print(mydict)
