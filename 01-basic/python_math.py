@@ -11,3 +11,6 @@ print(x)
 
 x = pow(3, 4)
 print(x)
+
+x = math.floor(1.732)
+print(x)

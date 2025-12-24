@@ -188,7 +188,7 @@ myfamily = {
   "child3" : child3
 }
 
-# print(myfamily["child2"]["name"])
+print(myfamily["child2"]["name"])
 
 # for x in myfamily.items():
 #   print(x)
@@ -209,6 +209,15 @@ mydict = {
   "child3" : {
   "name" : "Linus",
   "year" : 2011
+}
+}
+print(mydict)
+
+
+mydict = {
+  "child1" : {
+  "name" : "Emil",
+  "year" : 2004
 }
 }
 print(mydict)
