@@ -94,6 +94,3 @@ mytuple = ("apple", "banana", "cherry")
 x =  list(mytuple)
 x.append("how are you")
 print(x)
-
-
-

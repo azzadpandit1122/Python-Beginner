@@ -8,29 +8,29 @@
 # celsius = (temp - 32) * 5/9
 # print(celsius)
 
-# def my_function():
-#   print(" Refsnes")
+# # def my_function():
+# #   print(" Refsnes")
 
-# my_function("Emil")
-# my_function()
-# my_function("Linus")
+# # my_function("Emil")
+# # my_function()
+# # my_function("Linus")
 
 # def my_function(name): # name is a parameter
 #     print("Hello", name)      
 
 # my_function("Emil")
+# #
+# # This function expects 2 arguments, and gets 2 arguments::
 
-# This function expects 2 arguments, and gets 2 arguments::
+# # def my_function(fname, lname):
+# #   print(fname + " " + lname)
 
-# def my_function(fname, lname):
-#   print(fname + " " + lname)
+# # my_function("Emil", "Refsnes")
 
-# my_function("Emil", "Refsnes")
+# # def my_function(fname, lname):
+# #   print(fname + " " + lname)
 
-# def my_function(fname, lname):
-#   print(fname + " " + lname)
-
-# my_function("Emil")
+# # my_function("Emil")
 
 # def my_function(name = "friend"):
 #   print("Hello", name)
@@ -134,17 +134,17 @@
 
 # my_function("Emil")
 
-# def my_function(a, b, /, *, c, d):
-#   return a + b + c + d
+# # def my_function(a, b, /, *, c, d):
+# #   return a + b + c + d
 
-# result = my_function(5, 10, c = 15, d = 20)
-# print(result)
+# # result = my_function(5, 10, c = 15, d = 20)
+# # print(result)
 
 
-# def my_function():
-#   print(my_function)
+# # def my_function():
+# #   print(my_function)
 
-# my_function("Emil", "Refsnes")
+# # my_function("Emil", "Refsnes")
 
 
 # animal = "dog"

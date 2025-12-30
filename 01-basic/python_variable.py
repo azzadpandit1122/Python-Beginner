@@ -28,7 +28,6 @@ print(str(y))
 
 x = "john"
 x = 6
-
 print(x)
 
 a = 4
