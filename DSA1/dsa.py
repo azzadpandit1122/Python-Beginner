@@ -1,32 +1,32 @@
-# #Define Set
+# # Define Set
 # # in set include a lot of list 
 
-# # set = (56, 67, 7)
-# # for x in set:
-# #     print(x)
+# set = (56, 67, 7)
+# for x in set:
+#     print(x)
 
 
-# # demo1 = ["abc", "xyz"] 
-# # demo2 = [45, 77, 6]
-# # demo3 = ["gf", "gd" , "bfhj"]
-# # for y in (demo1 , demo2 , demo3):
-# # # set = demo1 + demo2 + demo3
-# #     print(y)
+# demo1 = ["abc", "xyz"] 
+# demo2 = [45, 77, 6]
+# demo3 = ["gf", "gd" , "bfhj"]
+# for y in (demo1 , demo2 , demo3):
+# # set = demo1 + demo2 + demo3
+#     print(y)
+# # 1980
+# demo1 = ["abc", "xyz"] 
+# demo2 = [45, 77, 6]
+# demo3 = ["gf", "gd" , "bfhj"]
+# set1 = (demo1, demo2, demo3)
+# for y in (set1):
+#     print(y)
 
-# # demo1 = ["abc", "xyz"] 
-# # demo2 = [45, 77, 6]
-# # demo3 = ["gf", "gd" , "bfhj"]
-# # set1 = (demo1, demo2, demo3)
-# # for y in (set1):
-# #     print(y)
 
-
-# # demo1 = ["abc", "xyz"] 
-# # demo2 = [45, 77, 6]
-# # demo3 = ["gf", "gd" , "bfhj"]
-# # set1 = (demo1, demo2, demo3)
-# # x = set1 * 3
-# # print(x)
+# demo1 = ["abc", "xyz"] 
+# demo2 = [45, 77, 6]
+# demo3 = ["gf", "gd" , "bfhj"]
+# set1 = (demo1, demo2, demo3)
+# x = set1 * 3
+# print(x)
 
 # demo1 = ["abc", "xyz"] 
 # set1 = (demo1)
@@ -162,7 +162,7 @@
 
 # print( lst)
 
-# Take a string from user and reverse it
+# # Take a string from user and reverse it
 
 # original_string = "hello world"
 # rev_string = original_string[::-1]
@@ -195,174 +195,192 @@
 #     else:
 #       print("non prime number")
 
-a = 68
-b = 76
-sum = a + b 
-print(sum)
+# a = 68
+# b = 76
+# sum = a + b 
+# print(sum)
 
-if __name__ == '__main__':
-    print("__name__")
+# if __name__ == '__main__':
+#     print("__name__")
 
-# dist_1 = 57687
-# dist_2 = 25465
-# if dist_1 < dist_2:
-#     print(enemy_1)
-# else:
-#     print(enemy_2)
+# # dist_1 = 57687
+# # dist_2 = 25465
+# # if dist_1 < dist_2:
+# #     print(enemy_1)
+# # else:
+# #     print(enemy_2)
 
-thislist = ["banana", "Orange", "Kiwi", "cherry"]
+# thislist = ["banana", "Orange", "Kiwi", "cherry"]
 
-thislist.reverse()
+# thislist.reverse()
 
-print(thislist)
+# print(thislist)
 
-# num = {4, 6, 8, 9, 5, 10}
-# e = []
-# o = []
-# for x in num:
-#     if x % 2 == 0:
-#         e.append(x)
-#         o.append(x)
-#         print("even numver:" , e)
-#     else:
-#         print("odd number:" , o)
-newlist = [x for x in range(10)]
+# # num = {4, 6, 8, 9, 5, 10}
+# # e = []
+# # o = []
+# # for x in num:
+# #     if x % 2 == 0:
+# #         e.append(x)
+# #         o.append(x)
+# #         print("even numver:" , e)
+# #     else:
+# #         print("odd number:" , o)
+# newlist = [x for x in range(10)]
 
-print(newlist)      
+# print(newlist)      
 
-x = 5
-print(type(x))
+# x = 5
+# print(type(x))
 
-x = 5
-x = complex(x)
-print(x)
+# x = 5
+# x = complex(x)
+# print(x)
 
-x = 5
-x = float(x)
-print(x)
+# x = 5
+# x = float(x)
+# print(x)
 
-x = 5
-x = str(x)
-print(x)
+# x = 5
+# x = str(x)
+# print(x)
 
-# mylist = ['apple', 'banana', 'cherry']
-# i = 0
-# while i < len(mylist):
-#  print(mylist[i])
-# i = i + 1
+# # mylist = ['apple', 'banana', 'cherry']
+# # i = 0
+# # while i < len(mylist):
+# #  print(mylist[i])
+# # i = i + 1
 
-num = "aple"
-x = num * 3
-print(x)
-
-num = "aple ", "bana", "uru"
-[print(x) for x in num]
+# num = "aple"
+# x = num * 3
+# print(x)
 
 # num = "aple ", "bana", "uru"
-# ewlist
+# [print(x) for x in num]
 
-import datetime
+# # num = "aple ", "bana", "uru"
+# # ewlist
+
+# import datetime
+
+# # x = datetime.datetime.now()
+
+# # print(x.strftime("%B"))
+
+# x = datetime.datetime(2025, 12, 30)
+# print(x)
 
 # x = datetime.datetime.now()
+# print(x)
 
-# print(x.strftime("%B"))
-
-x = datetime.datetime(2025, 12, 30)
-print(x)
-
-x = datetime.datetime.now()
-print(x)
-
-x = datetime.datetime(2028, 12, 2)
-print(x.strftime("%y"))
+# x = datetime.datetime(2028, 12, 2)
+# print(x.strftime("%y"))
 
 
-x = datetime.datetime(1540, 11, 3)
-print(x.strftime("%y"))
+# x = datetime.datetime(1540, 11, 3)
+# print(x.strftime("%y"))
 
-x = datetime.datetime(1540, 11, 3)
-print(x.strftime("%c"))
+# x = datetime.datetime(1540, 11, 3)
+# print(x.strftime("%c"))
 
-x = datetime.datetime(1540, 11, 3)
-print(x.strftime("%C"))
+# x = datetime.datetime(1540, 11, 3)
+# print(x.strftime("%C"))
 
-class Person:
-  def __init__(self, name, age):
-    self.name = name
-    self.age = age
+# class Person:
+#   def __init__(self, name, age):
+#     self.name = name
+#     self.age = age
 
-  def myfunc(self):
-    print("Hello my name is " + self.name)
+#   def myfunc(self):
+#     print("Hello my name is " + self.name)
 
-p1 = Person("John", 36)
-print(p1)
+# p1 = Person("John", 36)
+# print(p1)
 
-mytuple = ("apple", "banana", "cherry")
-myit = iter(mytuple)
+# mytuple = ("apple", "banana", "cherry")
+# myit = iter(mytuple)
 
-print(next(myit))
-print(next(myit))
-print(next(myit))
 # print(next(myit))
+# print(next(myit))
+# print(next(myit))
+# # print(next(myit))
 
-class MyNumbers:
-  def __iter__(self):
-    self.a = 1
-    return self
+# class MyNumbers:
+#   def __iter__(self):
+#     self.a = 1
+#     return self
 
-  def __next__(self):
-    x = self.a
-    self.a += 1
-    return x
+#   def __next__(self):
+#     x = self.a
+#     self.a += 1
+#     return x
 
-myclass = MyNumbers()
-myiter = iter(myclass)
-
-print(next(myiter))
-print(next(myiter))
-print(next(myiter))
-print(next(myiter))
-print(next(myiter))
-print(next(myiter))
-
-class MyNumbers:
-  def __iter__(self):
-    self.a = 1
-    return self
-
-  def __next__(self):
-    if self.a < 20:
-      x = self.a
-      self.a += 1
-      return x
-    else:
-      raise StopIteration
-
-myclass = MyNumbers()
-myiter = iter(myclass)
-
-for x in myiter:
-  print(x)
-
-
-class Table:
-  def __iter__(self):
-    self.b = 2
-    return self
-
-  def __next__(self):
-    if self.b <= 20:
-      x = self.b
-    self.b += 2
-    return x 
-  else:
-  raise StopIteration
-
-# myclass = Table()
+# myclass = MyNumbers()
 # myiter = iter(myclass)
 
 # print(next(myiter))
 # print(next(myiter))
 # print(next(myiter))
+# print(next(myiter))
+# print(next(myiter))
+# print(next(myiter))
+
+# class MyNumbers:
+#   def __iter__(self):
+#     self.a = 1
+#     return self
+
+#   def __next__(self):
+#     if self.a < 20:
+#       x = self.a
+#       self.a += 1
+#       return x
+#     else:
+#       raise StopIteration
+
+# myclass = MyNumbers()
+# myiter = iter(myclass)
+
+# for x in myiter:
+#   print(x)
 
 
+# class Table:
+#   def __iter__(self):
+#     self.b = 2
+#     return self
+
+#   def __next__(self):
+#     if self.b <= 20:
+#       x = self.b
+#     self.b += 2
+#     return x 
+#   else:
+#   raise StopIteration
+
+# # myclass = Table()
+# # myiter = iter(myclass)
+
+# # print(next(myiter))
+# # print(next(myiter))
+# # print(next(myiter))
+
+
+# # A = ("a", "b", "c")
+# # try:
+#   #  print(5)
+
+total = 0
+for i in range(1, 20):
+    total += i
+print(f"sum is {total}")
+
+total = 1
+for i in range(1, 5):
+    total *= i
+print("multiply is", total)
+
+total = 1
+for i in range(1, 10):
+    total *= i
+print("multiply is", total)
