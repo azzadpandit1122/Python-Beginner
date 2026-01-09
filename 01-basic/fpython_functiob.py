@@ -228,3 +228,165 @@ print(len(r))
 x = 50
 for i in range(2):
   print(x)
+
+# Complete the 'print_full_name' function below.
+#
+# The function is expected to return a STRING.
+# The function accepts following parameters:
+#  1. STRING first
+#  2. STRING last
+#
+    
+# def print_full_name(first, last):
+#     return f"hello {first} {last}! You just delved into python."
+
+# if __name__ == '__main__':
+#     first_name = input()
+#     last_name = input()
+#     print_full_name(first_name, last_name)
+    
+#     print(result)
+
+# s = "qR5"
+# if s in range(0, 3):
+#        print(True)
+
+# s = input()
+
+# for c in s:
+#   if c.alpha():
+#     print(True)
+
+#   else:
+#     print(False)
+
+ # if c.isalpha():
+    #     print(True)
+    # else:
+    #     print(False)
+# s = "aW4"
+# found = False
+
+# for c in s:
+   
+#     if c.isupper():
+#         found = True
+#         break
+# print(found)
+
+# s = "bH6"
+# found = False
+
+# for c in s:
+#     if c.isupper():
+#         found = True
+#         break
+
+# print(found)
+
+
+# s = input()
+
+# found = False
+
+# for c in s:
+#     if c.isupper():
+#         found = True
+#         break   # ek milte hi ruk jao
+
+# print(found)
+
+if __name__ == '__main__':
+  s = "rT5"
+  found = False
+  for c in s:
+    if c.isalnum():
+       found = True
+       print(found)       
+    if c.isalnum():
+        found = True
+        print(found) 
+    if c.isdigit():
+        found = True
+        print(found) 
+    if c.islower():
+        found = True
+        print(found)
+    if c.isupper():
+        found = True
+        print(found) 
+
+        thickness = 5
+c = 'H'
+
+# Top Cone
+for i in range(thickness):
+    print((c*i).rjust(thickness-1) + c + (c*i).ljust(thickness-1))
+
+# Top Pillars
+for i in range(thickness + 1):
+    print((c*thickness).ljust(thickness*2) + (c*thickness).rjust(thickness*6))
+
+# Middle Belt
+for i in range((thickness + 1)//2):
+    print((c*thickness*5).center(thickness*6))
+
+# Bottom Pillars
+for i in range(thickness + 1):
+    print((c*thickness).ljust(thickness*2) + (c*thickness).rjust(thickness*6))
+
+# Bottom Cone
+for i in range(thickness):
+    print(((c*(thickness-i-1)).rjust(thickness) + c + (c*(thickness-i-1)).ljust(thickness)).rjust(thickness*6))
+
+import textwrap
+    
+a = "ABFCHIJGKLMNOPQRSTUVWXY"
+# B = 4
+result = textwrap.wrap(a, width=3)
+for i in result:
+   print(i)
+
+
+# input_string = "This is a long string that needs to be wrapped into multiple lines so that each line is no longer than a specified maximum width."
+# max_width = 30
+
+# result = textwrap(input_string, max_width)
+# print(result)   
+
+# N, M = map(int, input().split())
+
+# # Top part
+# for i in range(N // 2):
+#     pattern = ".|." * (2 * i + 1)
+#     print(pattern.center(M, "-"))
+
+# # Middle
+# print("WELCOME".center(M, "-"))
+
+# # Bottom part
+# for i in range(N // 2 - 1, -1, -1):
+#     pattern = ".|." * (2 * i + 1)
+#     print(pattern.center(M, "-"))
+
+
+# print numpy.linalg.det([[1 , 2], [2, 1]])      
+
+n = int(input())
+
+for i in range(1, n+1):
+    print(str(i) * i)
+
+n = int(input())
+
+for i in range(1, n):  # Stops at expected number of lines
+    for j in range(i):
+        print(i, end='')      
+    print()
+
+n = int(input())
+
+for i in range(1, n):
+    print(str(i) * i)
+
+

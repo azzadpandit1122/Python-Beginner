@@ -218,7 +218,7 @@ class Function:
       ccc.auro = auro
 
    def greet(object):
-      return "Hello, " + object.era
+      return "Hello, " + object.era , object.auro
    
    def welcome(fff):
       message = fff.greet()
@@ -227,3 +227,56 @@ class Function:
 p1 = Function("tyytdc", "bhs")
 p1.welcome()    
 
+class Function:
+   def __init__(object, phone, laptop):
+      object.phone = phone
+      object.laptop = laptop
+
+   def greet(aaa):
+      print("hello, I have a" + aaa.phone, aaa.laptop)
+
+T1 = Function("fhgd", "fyuf")
+T1.greet()   
+
+
+class Object:
+   def __init__(self, jh, ydc):
+      self.jh = jh
+      self.ydc = ydc
+
+
+   def greet(hhh):
+      return "Hello," + hhh.jh, hhh.ydc
+
+   def welcome(jjj):
+      msg = jjj.greet()
+      print(msg, "vhfff udch jv dvd ")
+
+p1 = Object("bjsdhgv", 7867)
+p1.welcome()
+
+class Phone:
+   def __init__(self, hhh):
+      self.hhh = hhh
+      # self.gggg = gggg
+
+   def name(vvv):  
+    print(vvv.hhh)
+
+Y3 = Phone("vivi")
+Y4 = Phone(67)
+Y5 = Phone("gjhfhv")
+
+Y3.name()
+Y4.name()
+Y5.name()
+
+class Phone:
+   def __init__(self, hhh, gggg):
+      self.hhh = hhh
+      self.gggg = gggg
+
+p1 = Phone("gjhg", 765)    
+
+print(p1.hhh)
+print(p1.gggg)
