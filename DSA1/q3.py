@@ -109,9 +109,9 @@
 # print(j.center(width))
 # print("=" * width)
 
-# n = 7
-# for i in range(1, n + 1):
-#     print(("*" * (2*i - 1)).center(2*n))
+n = 7
+for i in range(1, n + 1):
+    print(("*" * (2*i - 1)).center(2*n))
 
 # n = 5
 # for i in range(1, n + 1):

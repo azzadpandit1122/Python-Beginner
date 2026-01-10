@@ -171,13 +171,14 @@
 #      def __init__(self, name, age):
 #       self.name = name
 #       self.age = age
-#     # self.city = city
+#     #   self.city = city
     
 #      def greet(abc):
 #       abc.age += 1
 #       print (f"dchruyfv iugigjb,  {abc.age}")
 
 # p1 = Person("bhjdgb", 25)
+# p1.greet()
 # p1.greet()
 # p1.greet()
 # # print(p1.city)
@@ -206,11 +207,11 @@
 #         print(f"{self.name}, {self.age}, {self.city}")
 
 # u1 = Laptop("lee min ho", 25, "Italy") 
-# # print(u1)
+# print(u1)
 
-# # print(u1.name)
-# # print(u1.age)
-# # print(u1.city)
+# print(u1.name)
+# print(u1.age)
+# print(u1.city)
 # u1.greet()
 
 # # if __name__ == '__main__':
@@ -456,25 +457,25 @@
 # 1234321
 # 123454321
 
-n = int(input())
-lines = []
+# n = int(input())
+# lines = []
 
-for i in range(1, n + 1):   # ✅ ONLY ONE for loop
-    num = 0
-    j = 1
+# for i in range(1, n + 1):   # ✅ ONLY ONE for loop
+#     num = 0
+#     j = 1
 
-    # increasing part
-    while j <= i:
-        num = num * 10 + j
-        j += 1
+#     # increasing part
+#     while j <= i:
+#         num = num * 10 + j
+#         j += 1
 
-    j = i - 1
-    # decreasing part
-    while j > 0:
-        num = num * 10 + j
-        j -= 1
+#     j = i - 1
+#     # decreasing part
+#     while j > 0:
+#         num = num * 10 + j
+#         j -= 1
 
-    lines.append(num)
+#     lines.append(num)
 
-print(*lines, sep="\n")   # ✅ ONLY ONE print
+# print(*lines, sep="\n")   # ✅ ONLY ONE print
 
