@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+    background-color: rgb(37, 9, 37);
+    color: white;
+    height: 75px;
+    font-size: 27px;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    font-family: "Roboto", "san-sarif"
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+.gameCantainer {
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.cantainer {
+    display: grid;
+    grid-template-rows: repeat(3, 10vw);
+    grid-template-columns: repeat(3, 10vw);
+    font-family: "Roboto", "san-sarif";
+}
+
+.box {
+    border: 2px solid black;
+    font-size: 8vw;
+    cursor: pointer;
+}
+
+.box:hover {
+    background-color: rgb(217, 188, 252);
+}
+
+.gameInfo {
+    padding : 0 34px;
+    font-family: 'baloo bhaina 2', "cursive";
+}
+
+.br-0 {
+    border-right: 0;
+}
+
+.bl-0 {
+    border-left: 0;
+}
+
+.br-0 {
+    border-right: 0;
+}
+.bt-0 {
+    border-top: 0;
+}
+.bb-0 {
+    border-bottom: 0;
+}
